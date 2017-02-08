@@ -14,7 +14,7 @@
         document.title = string;
     };
     
-    ext.yeepification = function(base, yeebifier) {
+    ext.yeepmath = function(base, yeebifier) {
         return base+1*yeebifier+3*5;
     };
     
@@ -23,7 +23,7 @@
             [' ', '/ %s', 'comment', 'comment'],
             ["r", "tab name", "title"],
             [" ", "Set tab name to %s", "title_set", "Hello World"],
-            ['r', "Yeepnum of %n and %n", "yeepification", 1, 1],
+            ['r', 'Yeepnum of %n and %n', 'yeepmath', 1, 1],
         ]
     };
     ScratchExtensions.register('Mod - Misc', descriptor, ext);
